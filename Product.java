@@ -13,25 +13,25 @@ class Product{
     public String getname() {
         return name;
     }
-    public String getdescritpion() {
+    public String getdescription() {
         return description;
     }
     public float getcost() {
         return cost;
     }
-    public  void settype(type) {
+    public  void settype(String type) {
         this.type=type;
     }
-    public void setstock(stock) {
+    public void setstock(int stock) {
         this.stock=stock;
     }
-    public void setname(name) {
+    public void setname(String name) {
         this.name=name;
     }
-    public void setdescritpion(description) {
-        thisdescription=description;
+    public void setdescription(String description) {
+        this.description=description;
     }
-    public void setcost(cost) {
+    public void setcost(float cost) {
         this.cost=cost;
     }
 }
