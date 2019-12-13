@@ -3,7 +3,7 @@ Class Mouse Extends Periferals{
     private float pullrate;
     private boolean wireless;
 
-    public void  Mouse(name,pullrate,cost,stock,description,wireless){
+    public void  Mouse(String name,float pullrate,float cost,int stock,String description,boolean wireless){
         this.name=name;
         this.pullrate=pullrate;
         this.wireless=wireless;

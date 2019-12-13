@@ -1,9 +1,9 @@
-Class Cpu Extends Product{
-    type="cpu";
+class Cpu extends Product{
+    String type="cpu";
     private float clockspeed;
     private int cores;
 
-    public void  Cpu(name,cores,cost,stock,description,clockspeed){
+    public Cpu(String name,int cores, float cost,int stock,String description, float clockspeed){
         this.name=name;
         this.cores=cores;
         this.clockspeed=clockspeed;
