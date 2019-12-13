@@ -22,17 +22,19 @@ class Main {
       System.out.println(s);
       switch (s) {
         case "quit":
-          
           break;
         case "add":
-        manager.addcli();
-
+          manager.addcli();
+          break;
         case "print":
-        manager.printt();
+          manager.printt();
+          break;
+        case "save":
+          manager.save();
+          break;
         default:
           Main.help();
       }
-      //Main.spacer();
     }
   }
 }

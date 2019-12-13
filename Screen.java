@@ -12,4 +12,8 @@ class Screen extends Product {
     public float getsize(){
         return this.size;
     }
+    public String tostring() {
+        return this.getname() + "{/}" + this.getdescription() + "{/}" + String.valueOf(this.getstock()) + "{/}"
+                + String.valueOf(this.getcost()) + "{/}" + Float.toString(this.size) + "[/]";
+    }
 }

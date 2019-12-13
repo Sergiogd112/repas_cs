@@ -5,19 +5,19 @@ class Product{
     private float cost;
     private String type;
     public  String gettype() {
-        return type;
+        return this.type;
     }
     public int getstock() {
         return stock;
     }
     public String getname() {
-        return name;
+        return this.name;
     }
     public String getdescription() {
-        return description;
+        return this.description;
     }
     public float getcost() {
-        return cost;
+        return this.cost;
     }
     public  void settype(String type) {
         this.type=type;

@@ -9,4 +9,8 @@ class HardDrive extends Product{
         this.setstock(stock);
         this.setdescription(description);
     }
+    public String tostring() {
+        return this.getname() + "{/}" + this.getdescription() + "{/}" + String.valueOf(this.getstock()) + "{/}"
+                + String.valueOf(this.getcost()) + "{/}" + Float.toString(this.size) + "[/]";
+    }
 }
