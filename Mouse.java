@@ -13,6 +13,6 @@ class Mouse extends Periferal{
         this.wireless=wireless;
     }
     public String tostring() {
-        return this.getname()+"{/}"+this.getdescription()+"{/}"+String.valueOf(this.getstock())+"{/}"+String.valueOf(this.getcost())+"{/}"+Float.toString(this.pullrate)+"{/}"+Boolean.toString(this.wireless)+"[/]";
+        return this.gettype() + "{/}" + this.getsubtype() + "{/}" + this.getname()+"{/}"+this.getdescription()+"{/}"+String.valueOf(this.getstock())+"{/}"+String.valueOf(this.getcost())+"{/}"+Float.toString(this.pullrate)+"{/}"+Boolean.toString(this.wireless)+"[/]";
     }
 }

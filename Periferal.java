@@ -6,5 +6,7 @@ class Periferal extends Product{
     public void setsubtype(String sub) {
         this.subtype=sub;
     }
-
+    public String getsubtype() {
+        return this.subtype;
+    }
 }

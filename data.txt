@@ -1,0 +1,20 @@
+screen{/}tv{/}kjaksjdf blkfdblklkjasdblkjabnv kh dfhfklgjhlasdhoiuar gfd
+adlj fljgb afhsg lkjrdlkjghfsdlkjh gj lfdh gdflsv,mxcng,.sghañksgn,k vb,mc lkaghbdzd,zv blksdfjhñlen,mnhqwef.,mç
+ladkjkjadsglkawtyklcxv k  lb gr
+
+{/}1000{/}200.0{/}30.0[/]
+screen{/}tv1{/}kjaksjdf blkfdblklkjasdblkjabnv kh dfhfklgjhlasdhoiuar gfd
+adlj fljgb afhsg lkjrdlkjghfsdlkjh gj lfdh gdflsv,mxcng,.sghañksgn,k vb,mc lkaghbdzd,zv blksdfjhñlen,mnhqwef.,mç
+ladkjkjadsglkawtyklcxv k  lb gr
+
+{/}1100{/}200.0{/}50.0[/]
+screen{/}tv2{/}kjaksjdf blkfdblklkjasdblkjabnv kh dfhfklgjhlasdhoiuar gfd
+adlj fljgb afhsg lkjrdlkjghfsdlkjh gj lfdh gdflsv,mxcng,.sghañksgn,k vb,mc lkaghbdzd,zv blksdfjhñlen,mnhqwef.,mç
+ladkjkjadsglkawtyklcxv k  lb gr
+
+{/}1050{/}200.0{/}40.0[/]
+screen{/}tv3{/}kjaksjdf blkfdblklkjasdblkjabnv kh dfhfklgjhlasdhoiuar gfd
+adlj fljgb afhsg lkjrdlkjghfsdlkjh gj lfdh gdflsv,mxcng,.sghañksgn,k vb,mc lkaghbdzd,zv blksdfjhñlen,mnhqwef.,mç
+ladkjkjadsglkawtyklcxv k  lb gr
+
+{/}1300{/}200.0{/}60.0[/]

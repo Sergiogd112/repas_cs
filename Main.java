@@ -5,11 +5,11 @@ class Main {
     System.out.print(spacer);
   }
   public static void help() {
-    String x="a add a product\n"+
-             "r remove a product\n"+
-             "h show this menu\n"+
-             "s stores the register\n"+
-             "p prints the register\n";
+    String x="add add a product\n"+
+             "rem remove a product\n"+
+             "help show this menu\n"+
+             "save stores the register\n"+
+             "print prints the register\n";
     System.out.print(x);
   }
   public static void main(String[] args) {
@@ -31,6 +31,9 @@ class Main {
           break;
         case "save":
           manager.save();
+          break;
+        case "load":
+          manager.load();
           break;
         default:
           Main.help();

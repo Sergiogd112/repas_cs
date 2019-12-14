@@ -13,8 +13,8 @@ class Cpu extends Product {
     }
 
     public String tostring() {
-        return this.getname() + "{/}" + this.getdescription() + "{/}" + String.valueOf(this.getstock()) + "{/}"
-                + String.valueOf(this.getcost()) + "{/}" + String.valueOf(this.cores) + "{/}"
-                + String.valueOf(this.clockspeed) + "[/]";
+        return this.gettype() + "{/}" + this.getname() + "{/}" + this.getdescription() + "{/}"
+                + String.valueOf(this.getstock()) + "{/}" + String.valueOf(this.getcost()) + "{/}"
+                + String.valueOf(this.cores) + "{/}" + String.valueOf(this.clockspeed) + "[/]";
     }
 }

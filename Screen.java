@@ -13,7 +13,7 @@ class Screen extends Product {
         return this.size;
     }
     public String tostring() {
-        return this.getname() + "{/}" + this.getdescription() + "{/}" + String.valueOf(this.getstock()) + "{/}"
+        return this.gettype() + "{/}" + this.getname() + "{/}" + this.getdescription() + "{/}" + String.valueOf(this.getstock()) + "{/}"
                 + String.valueOf(this.getcost()) + "{/}" + Float.toString(this.size) + "[/]";
     }
 }
