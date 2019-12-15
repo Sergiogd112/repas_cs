@@ -51,18 +51,28 @@ class Product {
     }
     public static Product fromstring(String text) {
         String type = Manager.mysplitter(text, "{/}")[0];
+        String[] data = Manager.mysplitter(text, "{/}");
+        Product product;
         switch (type) {
             case "screen":
-                
+                product = new Screen(data[1], Float.parseFloat(data[5]), Float.parseFloat(data[4]), Integer.parseInt(data[3]), data[2]);
                 break;
             case "cpu":
+                product=new Cpu(data[1], Integer.parseInt(data[5]), Float.parseFloat(data[4]), Integer.parseInt(data[3]), data[2], Float.parseFloat(data[6]));
                 break;
             case  "ssd":
+                product= new SSD(data[1], Float.parseFloat(data[5]), Float.parseFloat(data[4]), Integer.parseInt(data[3]), data[2]);
                 break;
-            case "hdd"
+            case "hdd":
+            product= new HardDrive(data[1], Float.parseFloat(data[5]), Float.parseFloat(data[4]), Integer.parseInt(data[3]), data[2]);
+                break;
+            case "periferal":
+                product=Periferal.perifarr(data);
+                break;
             default:
                 break;
         }
+        return product;
     }
 
 }
