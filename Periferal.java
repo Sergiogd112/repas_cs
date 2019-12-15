@@ -1,24 +1,23 @@
-class Periferal extends Product{
-    private String subtype;
-    public  Periferal() {
-        this.settype("periferal");
+import java.util.function.Function;
+
+class Periferal extends Product {
+    private String subType;
+    public static final String type = "periferal";
+
+    public Periferal() {
+        super.productType = Periferal.type;
     }
-    public void setsubtype(String sub) {
-        this.subtype=sub;
+
+    public static void initParser() {
+        Function f = (text) -> Periferal.fromString((String[]) text);
+        Product.addParser(Periferal.type, f);
     }
-    public String getsubtype() {
-        return this.subtype;
+
+    public String toString() {
+        return super.toString();
     }
-    public static Periferal perifarr(String[] arr) {
-        Periferal perif =new Periferal();
-        switch (arr[1]) {
-            case "mouse":
-                perif=new Mouse(arr[2], Float.parseFloat(arr[6]), Float.parseFloat(arr[5]), Integer.parseInt(arr[4]), arr[3], Boolean.parseBoolean(arr[7]));
-                break;
-        
-            default:
-                break;
-        }
-        return perif;
+
+    public void printdata() {
+        super.printdata();
     }
 }
